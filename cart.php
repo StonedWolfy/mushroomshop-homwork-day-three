@@ -1,4 +1,5 @@
 <?php
+session_start();
 require_once 'parts/header.php';
 
 if (isset($_SESSION['order'])) { ?>
